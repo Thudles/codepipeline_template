@@ -7,7 +7,7 @@ Parameters:
   GitHubToken:
     Type: AWS::SSM::Parameter::Value<String>
     Description: "GitHub OAuth Token stored in AWS Systems Manager Parameter Store"
-    Default: /spotify-github/token
+    Default: /spotify_app/GitHubToken
   GitHubOwner:
     Type: String
     Description: "GitHub repository owner"
@@ -15,10 +15,10 @@ Parameters:
   GitHubRepo:
     Type: String
     Description: "GitHub repository name"
-    Default: Blitz---Serverless
+    Default: Blitz-Serverless
   GitHubBranch:
     Type: String
-    Default: master
+    Default: main
     Description: "GitHub branch to use as source"
 
 Resources:
