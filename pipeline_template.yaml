@@ -15,7 +15,7 @@ Parameters:
   GitHubRepo:
     Type: String
     Description: "GitHub repository name"
-    Default: Blitz
+    Default: Blitz---Serverless
   GitHubBranch:
     Type: String
     Default: master
